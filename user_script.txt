@@ -1,0 +1,7 @@
+jQuery(function($){ 
+	$("div.woocommerce-billing-fields h3").html("Оформление заказа");
+	$("div.woocommerce-billing-fields h3").html("Оформление заказа");
+	$("#Content > div > div > div > div > div.section.the_content.has_content > div > div > div > div > p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received").html("Мы свяжемся с вами в ближайшее время для подтверждения заказа, согласования даты и времени доставки.");
+	$("#header_cart").attr("href", "/checkout/")
+});
+
